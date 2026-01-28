@@ -1,3 +1,6 @@
 /logs
 /figures
 /data
+/.DS_Store
+/.jupyter/desktop-workspaces
+/.ipynb_checkpoints
