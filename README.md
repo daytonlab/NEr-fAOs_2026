@@ -1,5 +1,5 @@
 # NEr-fAOs manuscript scripts
-This repository contains the data and scripts used to produce the Figures in the NEr-fAOs  manuscript Candeli et al. Journal X (2026; https://www.biorxiv.org/content/10.64898/2026.01.10.698835v1).
+This repository contains the data and scripts used to produce the Figures in the NEr-fAOs  manuscript Candeli et al. (2026; https://www.biorxiv.org/content/10.64898/2026.01.10.698835v1).
 
 # Data Set-up
 Data used for plotting can be easily downloaded and organized by executing the next command:
