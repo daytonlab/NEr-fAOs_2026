@@ -2,6 +2,7 @@
 /figures
 /data
 /OLD_notebooks
+/trained_models/*.csv
 .DS_Store
 .jupyter/desktop-workspaces
 .ipynb_checkpoints
