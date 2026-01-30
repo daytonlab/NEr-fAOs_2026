@@ -3,7 +3,7 @@ mkdir data
 cd data
 
 # Create datasets directories
-mkdir data Hor2020 Conchola2023 Guo2023 Lee2023 Celltypist
+mkdir Hor2020 Conchola2023 Guo2023 Lee2023 Celltypist
 mkdir Celltypist/celltypist_costum_models
 
 # Hor2020
