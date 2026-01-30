@@ -1,6 +1,7 @@
 /logs
 /figures
 /data
+/OLD_notebooks
 .DS_Store
 .jupyter/desktop-workspaces
 .ipynb_checkpoints
