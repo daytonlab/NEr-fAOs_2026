@@ -14,8 +14,8 @@ wget -P data/Guo2023/ https://lungmap-breath-data.s3.amazonaws.com/LMEX000000439
 wget -P data/Guo2023/ https://lungmap-breath-data.s3.amazonaws.com/LMEX0000004396/download/Cell.Metadata.txt
 
 # Candeli2026
-# wget https.... .
+wget https://zenodo.org/records/18433634/files/STARsolo.velocyto_NEr-fAOs.h5ad
 
 # Conchola 2023
 
-
+# Lee 2023
