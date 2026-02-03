@@ -10,9 +10,9 @@ Pulmonary neuroendocrine cells (PNECs) are rare chemosensory epithelial cells, f
 ## Python environments
 Python environments are provided for ensuring reproducibility of this repository. Because of certain specific modules and versions, two separate environments are required. The environment *noah.yaml* is the main environment used as kernel for the majority of notebooks, 1 through 7.1 specifically. The environment *schpf.yaml* is necessary for running notebook 7.2 (scHPF unbiased analysis on Basal subset cells). To install both environments, run the following commands while in the root of this repository:
 
-```conda env create -f ./envs/noah_env.yaml```
+```conda env create -f ./envs/noah.yaml```
 
-```conda env create -f ./envs/schpf_env.yaml```
+```conda env create -f ./envs/schpf.yaml```
 
 ## Data Set-up
 Data used for running all notebooks and recreating paper figures can be easily downloaded and organized by executing the following command while in the root of this repository:
