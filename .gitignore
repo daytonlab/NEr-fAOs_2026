@@ -3,3 +3,6 @@
 /data
 /OLD_notebooks
 /trained_models/*.csv
+.DS_Store
+.jupyter
+.ipynb_checkpoints
