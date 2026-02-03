@@ -8,9 +8,9 @@ Noah Candeli, Lisanne den Hartigh, Nicholas Hou, Andrés Marco, José Antonio S�
 Pulmonary neuroendocrine cells (PNECs) are rare chemosensory epithelial cells, facultative stem cells, and a cell-of-origin for neuroendocrine lung cancers, yet the mechanisms governing their differentiation and heterogeneity are poorly understood. Here we establish NEr-fAOs, a human fetal airway organoid platform that robustly enriches PNECs, and identify a synergistic requirement for dual GSK3 and NOTCH inhibition to drive directed PNEC differentiation. This strategy yields stable cultures with up to 60-fold expansion of PNECs whose transcriptomes closely match fetal and adult PNECs. In addition to PNEC-enrichment, NEr-fAOs retain diverse airway epithelial cell types, preserving epithelial complexity. Time-resolved single-cell transcriptomics maps PNEC trajectories in NEr-fAOs, resolving precursor and mature states. Comparative analyses further reveal a distal airway bias in NEr-fAOs and enrichment for lower-airway progenitors. NEr-fAOs thus provide a scalable, tractable platform to dissect human PNEC biology and distal airway progenitor hierarchies relevant to lung development, cancer, and disease.
 
 ## Python environments
-Python environments are provided for ensuring reproducibility of this repository. Because of certain specific modules and versions, two separate environments are required. The "Noahs_env" is the main environment used as kernel for the majority of notebooks, 1 through 7.1 specifically. The environment *schpf* is necessary for running notebook 7.2 (scHPF unbiased analysis on Basal subset cells). To install both environments, run the following commands while in the root of this repository:
+Python environments are provided for ensuring reproducibility of this repository. Because of certain specific modules and versions, two separate environments are required. The environment *noah.yaml* is the main environment used as kernel for the majority of notebooks, 1 through 7.1 specifically. The environment *schpf.yaml* is necessary for running notebook 7.2 (scHPF unbiased analysis on Basal subset cells). To install both environments, run the following commands while in the root of this repository:
 
-```conda env create -f ./envs/NOAHS.yaml```
+```conda env create -f ./envs/noah_env.yaml```
 
 ```conda env create -f ./envs/schpf_env.yaml```
 
