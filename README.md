@@ -1,6 +1,8 @@
 # NEr-fAOs manuscript scripts
 This repository contains the data and scripts used to produce the Figures in the NEr-fAOs  manuscript Candeli et al. (2026; https://www.biorxiv.org/content/10.64898/2026.01.10.698835v1).
 
+To enable interactive and user-friendly exploration of gene expression patterns in the dataset, we developed an online Shiny application, the [NEr-fAOs scRNA-Seq Explorer](https://apps.embl.de/nerfaos_explorer/). The app allows visualization of gene expression across cellular populations and facilitates comparisons across donor identities and other sample-level metadata.
+
 ## Authors
 Noah Candeli, Lisanne den Hartigh, Nicholas Hou, Andrés Marco, José Antonio Sánchez-Villicaña, Andrea Garcia-Gonzales,  Shashank Gandhi, Francesca Sgualdino, Alyssa J. Miller, Jason Spence, Susana Chuva de Sousa Lopes, José L. McFaline-Figueroa, Hans Clevers,  Talya L. Dayton
 
