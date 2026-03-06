@@ -17,5 +17,10 @@ wget -P data/Guo2023/ https://lungmap-breath-data.s3.amazonaws.com/LMEX000000439
 wget https://zenodo.org/records/18433634/files/STARsolo.velocyto_NEr-fAOs.h5ad
 
 # Conchola 2023
-
+wget -P data/Conchola2023 https://zenodo.org/records/18433634/files/Conchola2023CellTagging.zip
+wget -P data/Conchola2023 https://zenodo.org/records/18433634/files/Conchola2023FetalEpithelium.zip
+for f in data/Conchola2023/*.zip; do
+    unzip "$f" -d data/Conchola2023/
+done
+rm data/Conchola2023/*.zip
 # Lee 2023
