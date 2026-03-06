@@ -16,6 +16,8 @@ Python environments are provided for ensuring reproducibility of this repository
 
 ```conda env create -f ./envs/schpf.yaml```
 
+The *schpf* ensures the scHPF module can be installed and works properly. An extra step is required to install the scHPF package itself. Activate the schpf environment using ```conda activate schpf``` and then follow the instructions [for installing the package only](https://github.com/simslab/scHPF?tab=readme-ov-file#installing-from-source).
+
 ## Data Set-up
 Data used for running all notebooks and recreating paper figures can be easily downloaded and organized by executing the following command while in the root of this repository:
 
