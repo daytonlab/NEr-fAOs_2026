@@ -23,13 +23,6 @@ Data used for running all notebooks and recreating paper figures can be easily d
 
 ```./bin/data_setup.sh```
 
-We did not find direct links to the data of the next publications. Authors provided us the data upon request via email. 
-
-- [Lee W., Lee S., Yoon JK. et al. 2023](https://www.nature.com/articles/s12276-023-01076-z) 
-- [Conchola A. S., et al. 2023](https://www.pnas.org/doi/10.1073/pnas.2210113120)
-
-***DISCLAIMER*** Not all notebooks will be runable given the lack of publicly-available download links of the *Conchola et al., 2023* and the *Lee et al., 2023* datasets.
-
 ## Analysis notebooks
 
 [Notebooks](https://github.com/daytonlab/NEr-fAOs_2026/tree/main/notebooks) used for the analysis, and their findings showed in the publication, are provided already run. For reproducibility purposes, they must be fully executed in ascending order by the number at the beginning of each file name.
