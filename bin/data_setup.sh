@@ -25,8 +25,8 @@ done
 rm data/Conchola2023/*.zip
 
 # Lee 2023
-wget -P data/Lee2023invitroAtlas https://zenodo.org/records/21358562/files/Lee2023invitroAtlas.zip
-for f in data/Lee2023invitroAtlas/*.zip; do
-    unzip "$f" -d data/Lee2023invitroAtlas/
+wget -P data/Lee2023 https://zenodo.org/records/21358562/files/Lee2023invitroAtlas.zip
+for f in data/Lee2023/*.zip; do
+    unzip "$f" -d data/Lee2023/
 done
-rm data/Lee2023invitroAtlas/*.zip
+rm data/Lee2023/*.zip
