@@ -14,13 +14,19 @@ wget -P data/Guo2023/ https://lungmap-breath-data.s3.amazonaws.com/LMEX000000439
 wget -P data/Guo2023/ https://lungmap-breath-data.s3.amazonaws.com/LMEX0000004396/download/Cell.Metadata.txt
 
 # Candeli2026
-wget https://zenodo.org/records/18433634/files/STARsolo.velocyto_NEr-fAOs.h5ad
+wget https://zenodo.org/records/21358562/files/STARsolo.velocyto_NEr-fAOs.h5ad
 
 # Conchola 2023
-wget -P data/Conchola2023 https://zenodo.org/records/18433634/files/Conchola2023CellTagging.zip
-wget -P data/Conchola2023 https://zenodo.org/records/18433634/files/Conchola2023FetalEpithelium.zip
+wget -P data/Conchola2023 https://zenodo.org/records/21358562/files/Conchola2023CellTagging.zip
+wget -P data/Conchola2023 https://zenodo.org/records/21358562/files/Conchola2023FetalEpithelium.zip
 for f in data/Conchola2023/*.zip; do
     unzip "$f" -d data/Conchola2023/
 done
 rm data/Conchola2023/*.zip
+
 # Lee 2023
+wget -P data/Lee2023invitroAtlas https://zenodo.org/records/21358562/files/Lee2023invitroAtlas.zip
+for f in data/Lee2023invitroAtlas/*.zip; do
+    unzip "$f" -d data/Lee2023invitroAtlas/
+done
+rm data/Lee2023invitroAtlas/*.zip
